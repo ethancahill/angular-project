@@ -1,0 +1,42 @@
+img {
+  margin: 0 20px 10px 30px;
+}
+
+.invisible {
+  display: none;
+}
+
+#arrow {
+  margin-left: 30px;
+}
+
+#pencil {
+  margin-right: 15px;
+}
+
+.button {
+  border-width: 0;
+}
+
+/* .button:hover {
+  transition: 0.5s;
+  opacity: 50%;
+}
+
+.button:active {
+  border-right-width: 2px;
+  border-bottom-width: 2.5px;
+  transition: 0.25s;
+} */
+
+.navbar-item {
+  transition: 0.3s;
+}
+
+.navbar-item:hover {
+  color: grey;
+}
+
+.navbar-link:hover {
+  color: grey;
+}

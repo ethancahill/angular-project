@@ -1,0 +1,16 @@
+* {
+  background-color: #ffffff;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.check {
+  margin-right: 15px;
+}
+
+.result {
+  margin-top: 20px;
+  color: orange;
+}
