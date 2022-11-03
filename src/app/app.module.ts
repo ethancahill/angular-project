@@ -13,6 +13,9 @@ import { EmployementComponent } from './components/employement/employement.compo
 import { BlogComponent } from './components/blog/blog.component';
 import { LoginSignupComponent } from './components/login-signup/login-signup.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { UpperNavComponent } from './components/upper-nav/upper-nav.component';
+import { WedoComponent } from './components/wedo/wedo.component';
+import { ChangecardComponent } from './components/changecard/changecard.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -36,6 +39,9 @@ const appRoutes: Routes = [
     BlogComponent,
     LoginSignupComponent,
     ContactComponent,
+    UpperNavComponent,
+    WedoComponent,
+    ChangecardComponent,
   ],
   imports: [
     BrowserModule,

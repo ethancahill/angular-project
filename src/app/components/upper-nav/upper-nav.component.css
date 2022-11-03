@@ -1,0 +1,15 @@
+* {
+  background-color: white;
+}
+
+.upper-nav {
+  margin-top: 5px;
+}
+
+li:hover {
+  color: grey;
+}
+
+li {
+  color: black;
+}
