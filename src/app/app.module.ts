@@ -19,6 +19,7 @@ import { ConsultButtonComponent } from './components/consult-button/consult-butt
 import { OurOfferComponent } from './components/our-offer/our-offer.component';
 import { EmploymentComponent } from './components/employment/employment.component';
 import { BorderBarComponent } from './components/border-bar/border-bar.component';
+import { OverallOrganizationComponent } from './components/overall-organization/overall-organization.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -48,6 +49,7 @@ const appRoutes: Routes = [
     OurOfferComponent,
     EmploymentComponent,
     BorderBarComponent,
+    OverallOrganizationComponent,
   ],
   imports: [
     BrowserModule,
