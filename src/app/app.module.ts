@@ -17,6 +17,7 @@ import { UpperNavComponent } from './components/upper-nav/upper-nav.component';
 import { WedoComponent } from './components/wedo/wedo.component';
 import { ChangecardComponent } from './components/changecard/changecard.component';
 import { ConsultButtonComponent } from './components/consult-button/consult-button.component';
+import { OurOfferComponent } from './components/our-offer/our-offer.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -44,6 +45,7 @@ const appRoutes: Routes = [
     WedoComponent,
     ChangecardComponent,
     ConsultButtonComponent,
+    OurOfferComponent,
   ],
   imports: [
     BrowserModule,
