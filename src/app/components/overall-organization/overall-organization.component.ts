@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import{faCheck} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-overall-organization',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OverallOrganizationComponent implements OnInit {
 
+  check = faCheck
+  
   constructor() { }
 
   ngOnInit(): void {
