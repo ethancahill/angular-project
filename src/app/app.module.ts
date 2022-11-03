@@ -18,6 +18,7 @@ import { ChangecardComponent } from './components/changecard/changecard.componen
 import { ConsultButtonComponent } from './components/consult-button/consult-button.component';
 import { OurOfferComponent } from './components/our-offer/our-offer.component';
 import { EmploymentComponent } from './components/employment/employment.component';
+import { BorderBarComponent } from './components/border-bar/border-bar.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -46,6 +47,7 @@ const appRoutes: Routes = [
     ConsultButtonComponent,
     OurOfferComponent,
     EmploymentComponent,
+    BorderBarComponent,
   ],
   imports: [
     BrowserModule,
