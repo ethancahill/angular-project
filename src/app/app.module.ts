@@ -16,6 +16,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { UpperNavComponent } from './components/upper-nav/upper-nav.component';
 import { WedoComponent } from './components/wedo/wedo.component';
 import { ChangecardComponent } from './components/changecard/changecard.component';
+import { ConsultButtonComponent } from './components/consult-button/consult-button.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -42,6 +43,7 @@ const appRoutes: Routes = [
     UpperNavComponent,
     WedoComponent,
     ChangecardComponent,
+    ConsultButtonComponent,
   ],
   imports: [
     BrowserModule,
