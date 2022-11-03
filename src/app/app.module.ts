@@ -9,7 +9,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProcessComponent } from './components/process/process.component';
 import { ServicesComponent } from './components/services/services.component';
 import { StaffComponent } from './components/staff/staff.component';
-import { EmployementComponent } from './components/employement/employement.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { LoginSignupComponent } from './components/login-signup/login-signup.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -18,13 +17,14 @@ import { WedoComponent } from './components/wedo/wedo.component';
 import { ChangecardComponent } from './components/changecard/changecard.component';
 import { ConsultButtonComponent } from './components/consult-button/consult-button.component';
 import { OurOfferComponent } from './components/our-offer/our-offer.component';
+import { EmploymentComponent } from './components/employment/employment.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'process', component: ProcessComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'staff', component: StaffComponent },
-  { path: 'employement', component: EmployementComponent },
+  { path: 'employment', component: EmploymentComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'login', component: LoginSignupComponent },
   { path: 'contact', component: ContactComponent },
@@ -37,7 +37,6 @@ const appRoutes: Routes = [
     ProcessComponent,
     ServicesComponent,
     StaffComponent,
-    EmployementComponent,
     BlogComponent,
     LoginSignupComponent,
     ContactComponent,
@@ -46,6 +45,7 @@ const appRoutes: Routes = [
     ChangecardComponent,
     ConsultButtonComponent,
     OurOfferComponent,
+    EmploymentComponent,
   ],
   imports: [
     BrowserModule,
