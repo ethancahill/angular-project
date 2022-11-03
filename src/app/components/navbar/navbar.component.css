@@ -1,3 +1,7 @@
+.invisible {
+    display: none;
+}
+
 #arrow {
   margin-left: 30px;
 }
@@ -10,7 +14,7 @@
   border-width: 0;
 }
 
-.button:hover {
+/* .button:hover {
   transition: 0.5s;
   opacity: 50%;
 }
@@ -19,7 +23,7 @@
   border-right-width: 2px;
   border-bottom-width: 2.5px;
   transition: 0.25s;
-}
+} */
 
 .navbar-item {
   transition: 0.3s;

@@ -11,12 +11,13 @@ export class NavbarComponent implements OnInit {
 
   arrowRight = faArrowRight;
   pencil = faPenToSquare
+  isBurgerOpen: boolean = false
 
   constructor() {}
 
   ngOnInit(): void {}
 
-  onClick() { 
-    this.btnClick.emit();
+  toggleMenu(): void {
+    this.isBurgerOpen = !this.isBurgerOpen
   }
 }
