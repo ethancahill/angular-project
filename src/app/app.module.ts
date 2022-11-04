@@ -21,6 +21,7 @@ import { EmploymentComponent } from './components/employment/employment.componen
 import { BorderBarComponent } from './components/border-bar/border-bar.component';
 import { OverallOrganizationComponent } from './components/overall-organization/overall-organization.component';
 import { TechDepartmentsComponent } from './components/tech-departments/tech-departments.component';
+import { SalesComponent } from './components/sales/sales.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -52,6 +53,7 @@ const appRoutes: Routes = [
     BorderBarComponent,
     OverallOrganizationComponent,
     TechDepartmentsComponent,
+    SalesComponent,
   ],
   imports: [
     BrowserModule,
