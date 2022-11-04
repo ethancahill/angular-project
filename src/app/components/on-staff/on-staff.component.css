@@ -8,6 +8,25 @@ app-border-bar {
   margin-top: 50px;
 }
 
+app-consult-button {
+  display: flex;
+  justify-content: center;
+}
+
+fa-icon {
+    margin-right: 20px;
+}
+
+h4 {
+    color: orange;
+    margin-top: 20px;
+}
+
+li {
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+
 .section {
   background: linear-gradient(
     darkblue,
@@ -17,4 +36,8 @@ app-border-bar {
     white,
     white
   );
+}
+
+.bottom-text {
+  text-align: center;
 }
