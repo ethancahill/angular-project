@@ -23,6 +23,7 @@ import { OverallOrganizationComponent } from './components/overall-organization/
 import { TechDepartmentsComponent } from './components/tech-departments/tech-departments.component';
 import { SalesComponent } from './components/sales/sales.component';
 import { OnStaffComponent } from './components/on-staff/on-staff.component';
+import { OurServicesComponent } from './components/our-services/our-services.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -56,6 +57,7 @@ const appRoutes: Routes = [
     TechDepartmentsComponent,
     SalesComponent,
     OnStaffComponent,
+    OurServicesComponent,
   ],
   imports: [
     BrowserModule,
