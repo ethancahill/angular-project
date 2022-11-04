@@ -12,4 +12,8 @@ export class ConsultButtonComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onClick() {
+    console.log('click')
+  }
+
 }

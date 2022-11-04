@@ -1,0 +1,36 @@
+* {
+  margin-top: 20px;
+}
+
+h4 {
+  color: white;
+}
+
+img {
+    max-height: 400px;
+}
+
+
+
+li {
+  color: white;
+  font-style: bold;
+  font-size: larger;
+  margin-left: 20px;
+}
+
+app-consult-button {
+  margin-top: 20px;
+}
+
+strong {
+  font-size: 20px;
+}
+
+.section {
+  background: linear-gradient(#86cceb, #86cceb, lightblue, darkblue);
+}
+
+.column-2 {
+  margin-left: 30px;
+}

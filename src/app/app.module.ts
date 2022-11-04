@@ -20,6 +20,9 @@ import { OurOfferComponent } from './components/our-offer/our-offer.component';
 import { EmploymentComponent } from './components/employment/employment.component';
 import { BorderBarComponent } from './components/border-bar/border-bar.component';
 import { OverallOrganizationComponent } from './components/overall-organization/overall-organization.component';
+import { TechDepartmentsComponent } from './components/tech-departments/tech-departments.component';
+import { SalesComponent } from './components/sales/sales.component';
+import { OnStaffComponent } from './components/on-staff/on-staff.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -50,6 +53,9 @@ const appRoutes: Routes = [
     EmploymentComponent,
     BorderBarComponent,
     OverallOrganizationComponent,
+    TechDepartmentsComponent,
+    SalesComponent,
+    OnStaffComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
 * {
-  background-color: rgb(240, 240, 240);
+  margin-bottom: 20px;
+  background-color: whitesmoke;
 }
 
 app-border-bar {
@@ -29,11 +30,13 @@ app-consult-button {
   text-align: center;
 }
 
-.first-column {
-  border-right: 2px dashed grey;
-}
-
 .check {
   margin-right: 10px;
   margin-left: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .first-column {
+    border-right: 2px dashed grey;
+  }
 }

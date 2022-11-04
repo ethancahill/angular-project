@@ -1,0 +1,20 @@
+h2 {
+  text-align: center;
+}
+
+app-border-bar {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.section {
+  background: linear-gradient(
+    darkblue,
+    lightblue,
+    lightblue,
+    white,
+    white,
+    white
+  );
+}
