@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-consult-button',
   templateUrl: './consult-button.component.html',
@@ -7,13 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConsultButtonComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router ) {}
 
   ngOnInit(): void {
   }
 
   onClick() {
-    console.log('click')
+    this.router.navigateByUrl('form')
   }
 
 }

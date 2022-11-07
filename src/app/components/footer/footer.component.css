@@ -1,0 +1,42 @@
+* {
+  background-color: darkblue;
+  color: white;
+}
+
+p {
+  font-size: medium;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  margin-bottom: 30px;
+}
+
+strong {
+  background-color: orange;
+}
+
+.phone-link {
+  font-style: none;
+  color: white;
+}
+
+.read-more {
+  color: black;
+  text-decoration: underline;
+}
+
+.top-border {
+  border-top: 2px dashed rgba(128, 128, 128, 0.411);
+}
+
+.bullet {
+  list-style-type: disc;
+}
+
+.center {
+  text-align: center;
+}

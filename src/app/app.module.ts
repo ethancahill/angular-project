@@ -7,8 +7,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProcessComponent } from './components/process/process.component';
-import { ServicesComponent } from './components/services/services.component';
-import { StaffComponent } from './components/staff/staff.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { LoginSignupComponent } from './components/login-signup/login-signup.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -23,16 +21,24 @@ import { OverallOrganizationComponent } from './components/overall-organization/
 import { TechDepartmentsComponent } from './components/tech-departments/tech-departments.component';
 import { SalesComponent } from './components/sales/sales.component';
 import { OnStaffComponent } from './components/on-staff/on-staff.component';
+import { OurServicesComponent } from './components/our-services/our-services.component';
+import { ProjectExamplesComponent } from './components/project-examples/project-examples.component';
+import { ReviewCarouselComponent } from './components/review-carousel/review-carousel.component';
+import { GetStartedFormComponent } from './components/get-started-form/get-started-form.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'process', component: ProcessComponent },
-  { path: 'services', component: ServicesComponent },
-  { path: 'staff', component: StaffComponent },
+  { path: 'services', component: OurServicesComponent },
+  { path: 'staff', component: OnStaffComponent },
   { path: 'employment', component: EmploymentComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'login', component: LoginSignupComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'it', component: TechDepartmentsComponent },
+  { path: 'sales', component: SalesComponent },
+  { path: 'form', component: GetStartedFormComponent },
 ];
 @NgModule({
   declarations: [
@@ -40,8 +46,6 @@ const appRoutes: Routes = [
     HomeComponent,
     NavbarComponent,
     ProcessComponent,
-    ServicesComponent,
-    StaffComponent,
     BlogComponent,
     LoginSignupComponent,
     ContactComponent,
@@ -56,6 +60,11 @@ const appRoutes: Routes = [
     TechDepartmentsComponent,
     SalesComponent,
     OnStaffComponent,
+    OurServicesComponent,
+    ProjectExamplesComponent,
+    ReviewCarouselComponent,
+    GetStartedFormComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
