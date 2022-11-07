@@ -1,4 +1,7 @@
 <div class="footer">
+  <button class="button" (click)="returnHome()">
+    <strong>Return Home</strong>
+  </button>
   <div class="columns is-centered">
     <div class="column is-half">
       <figure class="image is-96x96">
@@ -37,12 +40,14 @@
           <div class="column is-one-third">
             <h5 class="title is-5">Quick Links</h5>
             <ul>
-              <li class="bullet"><a href="">For IT Departments</a></li>
-              <li class="bullet"><a href="">For Sales & Marketing</a></li>
-              <li class="bullet"><a href="">Services</a></li>
-              <li class="bullet"><a href="">Our Process</a></li>
-              <li class="bullet"><a href="">Our Staff</a></li>
-              <li class="bullet"><a href="">Employement</a></li>
+              <li class="bullet"><a routerLink="it">For IT Departments</a></li>
+              <li class="bullet">
+                <a routerLink="sales">For Sales & Marketing</a>
+              </li>
+              <li class="bullet"><a routerLink="services">Services</a></li>
+              <li class="bullet"><a routerLink="process">Our Process</a></li>
+              <li class="bullet"><a routerLink="staff">Our Staff</a></li>
+              <li class="bullet"><a routerLink="employment">Employement</a></li>
             </ul>
           </div>
           <div class="column">

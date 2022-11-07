@@ -27,13 +27,15 @@ strong {
 
 .section {
   background: linear-gradient(
+    #86cceb,
     #3bb59d,
     #3bb59d,
     #3bb59d,
     #3bb59d,
     #3bb59d,
     #3bb59d,
-    darkblue
+    #3bb59d,
+    #3bb59d
   );
 }
 

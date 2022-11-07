@@ -8,6 +8,17 @@ p {
   margin-bottom: 10px;
 }
 
+button {
+  background-color: orange;
+  color: white;
+  border: none;
+  margin-bottom: 30px;
+}
+
+strong {
+  background-color: orange;
+}
+
 .phone-link {
   font-style: none;
   color: white;

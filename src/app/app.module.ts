@@ -7,8 +7,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProcessComponent } from './components/process/process.component';
-import { ServicesComponent } from './components/services/services.component';
-import { StaffComponent } from './components/staff/staff.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { LoginSignupComponent } from './components/login-signup/login-signup.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -32,12 +30,14 @@ import { FooterComponent } from './components/footer/footer.component';
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'process', component: ProcessComponent },
-  { path: 'services', component: ServicesComponent },
-  { path: 'staff', component: StaffComponent },
+  { path: 'services', component: OurServicesComponent },
+  { path: 'staff', component: OnStaffComponent },
   { path: 'employment', component: EmploymentComponent },
   { path: 'blog', component: BlogComponent },
   { path: 'login', component: LoginSignupComponent },
   { path: 'contact', component: ContactComponent },
+  {path: 'it', component: TechDepartmentsComponent},
+  {path: 'sales', component: SalesComponent}
 ];
 @NgModule({
   declarations: [
@@ -45,8 +45,6 @@ const appRoutes: Routes = [
     HomeComponent,
     NavbarComponent,
     ProcessComponent,
-    ServicesComponent,
-    StaffComponent,
     BlogComponent,
     LoginSignupComponent,
     ContactComponent,
@@ -66,6 +64,7 @@ const appRoutes: Routes = [
     ReviewCarouselComponent,
     GetStartedFormComponent,
     FooterComponent,
+
   ],
   imports: [
     BrowserModule,
