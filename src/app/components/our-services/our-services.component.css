@@ -1,0 +1,22 @@
+*{
+    background-color: white;
+}
+
+app-border-bar {
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+}
+
+.grey {
+    background-color: darkslategrey;
+}
