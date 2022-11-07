@@ -24,6 +24,7 @@ import { TechDepartmentsComponent } from './components/tech-departments/tech-dep
 import { SalesComponent } from './components/sales/sales.component';
 import { OnStaffComponent } from './components/on-staff/on-staff.component';
 import { OurServicesComponent } from './components/our-services/our-services.component';
+import { ProjectExamplesComponent } from './components/project-examples/project-examples.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -58,6 +59,7 @@ const appRoutes: Routes = [
     SalesComponent,
     OnStaffComponent,
     OurServicesComponent,
+    ProjectExamplesComponent,
   ],
   imports: [
     BrowserModule,
