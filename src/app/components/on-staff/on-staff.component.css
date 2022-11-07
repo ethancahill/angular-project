@@ -14,24 +14,27 @@ app-consult-button {
 }
 
 fa-icon {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 h4 {
-    color: orange;
-    margin-top: 20px;
+  color: orange;
+  margin-top: 20px;
 }
 
 li {
-    margin-top: 20px ;
-    margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .section {
   background: linear-gradient(
     darkblue,
     lightblue,
-    lightblue,
+    white,
+    white,
+    white,
+    white,
     white,
     white,
     white

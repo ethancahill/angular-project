@@ -25,6 +25,9 @@ import { SalesComponent } from './components/sales/sales.component';
 import { OnStaffComponent } from './components/on-staff/on-staff.component';
 import { OurServicesComponent } from './components/our-services/our-services.component';
 import { ProjectExamplesComponent } from './components/project-examples/project-examples.component';
+import { ReviewCarouselComponent } from './components/review-carousel/review-carousel.component';
+import { GetStartedFormComponent } from './components/get-started-form/get-started-form.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -60,6 +63,9 @@ const appRoutes: Routes = [
     OnStaffComponent,
     OurServicesComponent,
     ProjectExamplesComponent,
+    ReviewCarouselComponent,
+    GetStartedFormComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

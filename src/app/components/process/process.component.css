@@ -7,10 +7,8 @@ h4 {
 }
 
 img {
-    max-height: 400px;
+  max-height: 400px;
 }
-
-
 
 li {
   color: white;
@@ -28,7 +26,15 @@ strong {
 }
 
 .section {
-  background: linear-gradient(#86cceb, #86cceb, lightblue, darkblue);
+  background: linear-gradient(
+    #3bb59d,
+    #3bb59d,
+    #3bb59d,
+    #3bb59d,
+    #3bb59d,
+    #3bb59d,
+    darkblue
+  );
 }
 
 .column-2 {
