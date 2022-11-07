@@ -36,8 +36,9 @@ const appRoutes: Routes = [
   { path: 'blog', component: BlogComponent },
   { path: 'login', component: LoginSignupComponent },
   { path: 'contact', component: ContactComponent },
-  {path: 'it', component: TechDepartmentsComponent},
-  {path: 'sales', component: SalesComponent}
+  { path: 'it', component: TechDepartmentsComponent },
+  { path: 'sales', component: SalesComponent },
+  { path: 'form', component: GetStartedFormComponent },
 ];
 @NgModule({
   declarations: [
@@ -64,7 +65,6 @@ const appRoutes: Routes = [
     ReviewCarouselComponent,
     GetStartedFormComponent,
     FooterComponent,
-
   ],
   imports: [
     BrowserModule,
